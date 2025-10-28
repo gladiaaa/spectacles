@@ -126,14 +126,14 @@ En cas d’expiration, /refresh permet de régénérer un jeton d’accès valid
 Méthode	Route	Accès	Description
 
 GET	        /	                PUBLIC	        Page d’accueil (message, menu, login)
-GET	        /shows	                PUBLIC	        Liste des spectacles
-GET	        /shows/{id}	        PUBLIC	        Fiche d’un spectacle
-POST	        /login	                PUBLIC	        Connexion utilisateur
-POST	        /refresh	        PUBLIC	        Rafraîchit le token d’accès
-POST	        /logout	                USER	        Déconnexion
-POST	        /reserve/{id}	        USER	        Réserver une place
-GET	        /profile	        USER	        Voir mes billets réservés
-POST	        /admin/shows	        ADMIN	        Ajouter un spectacle
+GET	        /shows	          PUBLIC	        Liste des spectacles
+GET	        /shows/{id}	      PUBLIC	        Fiche d’un spectacle
+POST	      /login	          PUBLIC	        Connexion utilisateur
+POST	      /refresh	        PUBLIC	        Rafraîchit le token d’accès
+POST	      /logout	          USER	          Déconnexion
+POST	      /reserve/{id}	    USER	          Réserver une place
+GET	        /profile	        USER	          Voir mes billets réservés
+POST	      /admin/shows	    ADMIN	          Ajouter un spectacle
 ```
 ---
 
@@ -155,6 +155,7 @@ POST	        /admin/shows	        ADMIN	        Ajouter un spectacle
 Aucune base de données (tout en mémoire pour la démo)
 
 ---
+
 
 
 Auteur : Ryan Annic WEB3 HETIC
