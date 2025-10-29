@@ -158,4 +158,5 @@ Aucune base de données (tout en mémoire pour la démo)
 
 
 
-Auteur : Ryan Annic WEB3 HETIC
+Auteur : Ryan Annic, Katia Sakris WEB3 HETIC
+
